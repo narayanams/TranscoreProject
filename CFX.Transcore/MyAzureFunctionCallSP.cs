@@ -29,6 +29,8 @@ namespace CallSPFromAzureFunction
 
 
 
+
+
     public static class MyAzureFunctionCallSP
     {
         [FunctionName("MyAzureFunctionCallSP")]
