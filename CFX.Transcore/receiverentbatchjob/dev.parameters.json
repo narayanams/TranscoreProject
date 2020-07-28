@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "subscriptionId": {
+      "value": "6ec67d41-53e9-4ca7-8d1f-2e6eeae753b4"
+    },
+    "name": {
+      "value": "receiverentbatchjobdev"
+    },
+    "location": {
+      "value": "East US"
+    },
+    "hostingEnvironment": {
+      "value": ""
+    },
+    "hostingPlanName": {
+      "value": "ASP-DevRG-9db5"
+    },
+    "serverFarmResourceGroup": {
+      "value": "Dev_RG"
+    },
+    "alwaysOn": {
+      "value": true
+    },
+    "storageAccountName": {
+      "value": "receiverentbatchjobdev"
+    },
+    "linuxFxVersion": {
+      "value": "2.2"
+    },
+    "sku": {
+      "value": "Standard"
+    },
+    "skuCode": {
+      "value": "B1"
+    },
+    "workerSize": {
+      "value": "0"
+    },
+    "workerSizeId": {
+      "value": "0"
+    },
+    "numberOfWorkers": {
+      "value": "1"
+    },
+
+    "AppInsightsName": { "value": "cfxnpait" },
+
+    "Authentication:VaultBaseURL": { "value": "https://cfxnpkvlt1.vault.azure.net"}
+
+
+  }
+}
